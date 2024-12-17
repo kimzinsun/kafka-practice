@@ -1,0 +1,17 @@
+POST http://localhost:9999/orders
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "productId": 1,
+  "quantity": 10,
+  "customerEmail": "test@gmail.com",
+  "totalPrice": 1000000
+}
+
+<> 2024-12-17T110513.201.json
+
+###
